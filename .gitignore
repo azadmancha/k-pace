@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing & Linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Raw Tracking Telemetry (175 MB - fetch via download_metrica.py)
+data/*.csv
+data/*.txt
+data/*.xml
+data/Sample_Game_3_events.json
+!data/README.md
+!data/batch_analysis_results.json
+
+# Generated demo artifacts
+quickstart_demo.png
+*.log
+.DS_Store
